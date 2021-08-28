@@ -1,5 +1,5 @@
 package go_coba
 
-func SayHello() string {
-	return "hallo world"
+func SayHello(name string) string {
+	return "hallo " + name
 }
